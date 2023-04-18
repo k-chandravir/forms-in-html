@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>vehicles</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body style="background-image: url('vehicle-background.jpg');">
+    <h1 style="text-align: center; margin-bottom: -2ch; color: rgb(235, 171, 88);">VIGNESH MOTORS</h1>
+    <h6 style="text-align: center;color: rgb(235, 171, 88);">LEAVING  VARSHAA  BEHIND  SINCE  2001</h6>
+
+    <form style="background-color: rgba(110, 160, 194, 0.603);">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>Type Of Vehicle</legend>
+            <label for="two_wheeler">Two Wheeler</label>
+            <input type="radio" name="type_of_vehicle" id="two_wheeler">
+
+            <label for="four_wheeler">Four Wheeler</label>
+            <input type="radio" name="type_of_vehicle" id="four_wheeler">
+        </fieldset>
+        <fieldset>
+            <legend>About Vehicle</legend>
+            <label for="registration_number">Registration Number:</label>
+            <input type="text" id="registration_number"><br>
+
+            <label for="year_of_purchase">Year Of Purchase:</label>
+            <select id="year_of_purchase">
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Damages Done</legend>
+            
+            <input type="checkbox" id="scratches">
+            <label for="scratches">Scratches</label><br>
+
+            <input type="checkbox" id="dents">
+            <label for="dents">Dents</label><br>
+
+            <input type="checkbox" id="cracks">
+            <label for="cracks">Cracks</label><br>
+
+            <input type="checkbox" id="puncture">
+            <label for="puncture">Puncture</label><br>
+
+            <input type="checkbox" id="engine_failure">
+            <label for="engine_failure">Engine Failure</label><br>
+            
+            <input type="checkbox" id="battery">
+            <label for="battery">Battery</label><br>
+
+            <input type="checkbox" id="punched_by_varsha">
+            <label for="punched_by_varsha">Varsha Did Accident</label><br>
+        </fieldset>
+        <input type="submit" style="margin-left: 10%;">
+    </form>
+</body>
+</html>
